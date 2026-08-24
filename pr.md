@@ -1,3 +1,5 @@
+# fix(treasury,deployment,optimistic-governor): add deactivate UI, verify-deployment coverage, drop unused execute() param
+
 ## Summary
 
 - Added an admin-only "Deactivate" action to each strategy card in
@@ -80,3 +82,8 @@ unrelated to the four issues above but blocking a green frontend build.
 - [x] `pnpm next build` in `app/` — succeeds
 - [x] `pnpm test` in `app/` — same 6 pre-existing failing suites as `main`
       (confirmed via stash comparison), nothing new broken
+
+closes #1107
+closes #1103
+closes #1104
+closes #1108
